@@ -5,7 +5,7 @@ A personal collection of data analysis practice projects, following the [Data An
 ## Projects
 
 ### `1-Python-Job-Listings-Scraper`
-A web scraper that pulls job listings from the [Real Python fake-jobs](https://realpython.github.io/fake-jobs/) practice site. It uses `urllib` to fetch the page and BeautifulSoup to parse each job card, extracting the title, company, location, and application link. The results are written out to a `job_listings.csv` file you can open in any spreadsheet tool — a typical first step in a data project: getting messy real-world data into a structured format.
+A web scraper that pulls job listings from the [Real Python fake-jobs](https://roadmap.sh/projects/job-listings-scraper) practice site. It uses `urllib` to fetch the page and BeautifulSoup to parse each job card, extracting the title, company, location, and application link. The results are written out to a `job_listings.csv` file you can open in any spreadsheet tool — a typical first step in a data project: getting messy real-world data into a structured format.
 
 **Run it:**
 ```bash
