@@ -13,10 +13,16 @@ pip install beautifulsoup4
 python 1-Python-Job-Listings-Scraper/python-job-listings-scraper.py
 ```
 
-### `2-apakek`
-Work in progress — placeholder for the next project. (Empty for now.)
+### `2-Analysing-pharmaceutical-sales-data`
+A pandas exercise analyzing a daily pharmaceutical sales dataset (`salesdaily.csv`)[Analysing Pharma Sales Data](https://roadmap.sh/projects/pharmaceutical-sales-data), where each drug category (ATC code) is its own column. The notebook works through a series of questions — total sales per category, best-selling drug, top sellers in specific months, which drug sold most often, highest average daily sales, and whether respiratory drugs (R03) show seasonal patterns. Practices the core pandas workflow: `read_csv`, boolean masking to filter rows, column selection, and aggregation with `sum`/`mean`/`groupby`.
+
+**Run it:**
+```bash
+pip install pandas jupyter
+jupyter notebook 2-Analysing-pharmaceutical-sales-data/analysing-pharmaceutical-sales-data.ipynb
+```
 
 ## Requirements
 
 - Python 3.x
-- `beautifulsoup4` (per-project; install as needed)
+- `beautifulsoup4`, `pandas`, `jupyter` (per-project; install as needed)
