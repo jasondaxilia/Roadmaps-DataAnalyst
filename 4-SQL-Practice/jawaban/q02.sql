@@ -1,0 +1,1 @@
+select count(city) from customers where city = 'Bandung'

@@ -1,0 +1,1 @@
+select avg() as mean, min, max from products 

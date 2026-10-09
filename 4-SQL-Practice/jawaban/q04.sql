@@ -1,0 +1,1 @@
+select * from products where category = 'Fashion' and price < 300000 order by price asc

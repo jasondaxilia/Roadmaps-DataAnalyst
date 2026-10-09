@@ -1,0 +1,1 @@
+select status,count(status) from orders order by status

@@ -1,0 +1,1 @@
+select name,category,price from products order by price desc limit 10;
