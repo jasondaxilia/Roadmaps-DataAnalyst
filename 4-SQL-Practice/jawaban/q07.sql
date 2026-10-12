@@ -1,1 +1,1 @@
-select IFNULL(city,'Unknown') as city,count(city) from customers group by city order by count(city) desc
+select IFNULL(city,'Unknown') as city,count(*) from customers group by city order by count(*) desc

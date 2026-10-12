@@ -1,0 +1,1 @@
+select category,count(category) from products group by category having count(category) > 4 

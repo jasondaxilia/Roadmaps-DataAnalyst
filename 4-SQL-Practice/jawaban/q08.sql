@@ -1,1 +1,1 @@
-select avg() as mean, min, max from products 
+select category as 'Nama Kategori', avg(price) as 'Rata-Rata Harga', min(price) as 'Harga Terendah', max(price) as 'Harga Termahal' from products group by category
