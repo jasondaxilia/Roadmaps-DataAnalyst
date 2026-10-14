@@ -12,7 +12,7 @@ WITH ringkasan AS (
   WHERE
     o.status = 'completed'
   group by o.customer_id
-) 
+)
 
 
 SELECT
@@ -23,3 +23,4 @@ WHERE
   jumlah_order >= 3 
   and 
   order_terakhir < '2025-06-03'
+  

@@ -1,3 +1,4 @@
+
 with jumlah as (
   select c.customer_id,c.name, SUM(oi.quantity * oi.unit_price) as total_belanja from orders as o
   join customers as c on o.customer_id = c.customer_id   
