@@ -1,0 +1,1 @@
+select name as nama_berulang, count(name) as terulang_berapa_kali, GROUP_CONCAT(customer_id) as list_customer_id from customers group by name having count(*) > 1
